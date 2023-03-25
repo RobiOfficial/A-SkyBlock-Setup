@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 62.65.198.246
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1679754121850
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1679754149331
+  login: 1679754117063
+money: '0'
+last-account-name: AvezzaMC
+logoutlocation:
+  world: 519c10bf-373e-4757-9b9f-4f0b6215c4d5
+  world-name: Hub
+  x: -6.572857059317901
+  y: 52.0
+  z: 4.515320551561652
+  yaw: -73.84713745117188
+  pitch: 14.526628494262695
+lastlocation:
+  world: 5cabd770-59fb-4450-a027-f2281b48978a
+  world-name: SkyBlock
+  x: -0.6129579441666605
+  y: 89.0
+  z: -0.1397513634500956
+  yaw: 99.17755889892578
+  pitch: 17.53851318359375

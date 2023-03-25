@@ -1,0 +1,12 @@
+&c1. All players must have appropriate usernames that are not offensive.
+&c2. Your Minecraft skin must be appropriate for our community and are not offensive.
+&c3. Do not ask for free stuff or beg for items.
+&c4. Do not hack or cheat to gain an advantage that would not normally be available in regular gameplay.
+&c5. If you disagree with another player or are uncomfortable with their messages, please notify a staff member.
+&c6. Do not build any type of farm with the purpose to overwhelm or cause a negative impact on the server.
+&c7. Impersonating staff members or other players is not allowed.
+&c8. If you encounter any disrespectful players, please report them to a staff member.
+&c9. Keep the chat civil and appropriate for everyone.
+&c10. Inappropriate builds are not allowed.
+
+&3&oIf someone broke the rules use &e&l/report &3&o command to notify the staff.

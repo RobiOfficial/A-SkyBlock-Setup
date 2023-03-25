@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 116.202.58.77
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1678945129235
+  login: 1678945098810
+money: '0'
+last-account-name: MCList
+lastlocation:
+  world: f8f8dd2b-b4f3-4483-8d97-58d062349abd
+  world-name: world
+  x: 0.0
+  y: 53.0
+  z: 0.0
+  yaw: 0.0
+  pitch: 0.0
+logoutlocation:
+  world: 519c10bf-373e-4757-9b9f-4f0b6215c4d5
+  world-name: Hub
+  x: -13.5
+  y: 53.0
+  z: 3.5
+  yaw: -86.84674072265625
+  pitch: -2.4001448154449463
