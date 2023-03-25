@@ -19,5 +19,5 @@ Credit: **Peaches_MLG** / Plugin: **[Iridium Skyblock](https://www.spigotmc.org/
 ## Reports 
 Credit: **MrTigreroux** / Plugin: **[TigerReports](https://www.spigotmc.org/resources/tigerreports.25773/)**
 - Players can report online and offline players with a cooldown and a minimum amount of characters. If they don't specify any reason, a GUI is opened to select one of the defaults (configurable) reasons.
-- When a report is sent, online staff is alerted by a clickable message that opens a menu.
+- When a report is sent, online staff is alerted by a clickable message that opens a menu.  
 ![Reports](https://github.com/RobiOfficial/A-SkyBlock-Setup/blob/main/Reports-menu-v1.png?raw=true)
