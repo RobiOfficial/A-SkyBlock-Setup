@@ -1,0 +1,21 @@
+# This is the server motd.
+Server-MOTD:
+  Line-1: '&b&l&m--------[&r&6&l A SkyBlock Setup &b&l&m]--------'
+  Line-2: '&e&lV1.0.0 &3&l(By: RobiOfficial)'
+# The motd of the player when they join in.
+JoinGame-MOTD:
+  Enabled: true
+  # Check forum for placeholders.
+  # Supported for PlaceholderAPI placeholders.
+  Messages:
+  - '&eWelcome to the server.'
+# Server icon.
+Custom-Server-Icon:
+  # Set to true will load image from motd folder.
+  Enabled: false
+  # Make sure it's 64 x 64 pixels with png format.
+  Image: server-icon.png
+# The maximum players of the server.
+Server-Maximum-Players:
+  Modify: true
+  Maximum-Players: 200
