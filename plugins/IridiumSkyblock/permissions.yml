@@ -1,0 +1,496 @@
+---
+allowed: "&a&lALLOWED"
+denied: "&c&lDENIED"
+blockBreak:
+  modifiable: true
+  item:
+    material: "DIAMOND_PICKAXE"
+    amount: 1
+    displayName: "&bBreak Blocks"
+    headData: null
+    headOwner: null
+    headOwnerUUID: null
+    lore:
+    - "&7Grant the ability to break any blocks on your Island."
+    - ""
+    - "&b&lPermission"
+    - "%permission%"
+    slot: 10
+  page: 1
+  defaultRank: "MEMBER"
+blockPlace:
+  modifiable: true
+  item:
+    material: "GRASS_BLOCK"
+    amount: 1
+    displayName: "&bPlace Blocks"
+    headData: null
+    headOwner: null
+    headOwnerUUID: null
+    lore:
+    - "&7Grant the ability to place any blocks on your Island."
+    - ""
+    - "&b&lPermission"
+    - "%permission%"
+    slot: 11
+  page: 1
+  defaultRank: "MEMBER"
+bucket:
+  modifiable: true
+  item:
+    material: "BUCKET"
+    amount: 1
+    displayName: "&bUse Buckets"
+    headData: null
+    headOwner: null
+    headOwnerUUID: null
+    lore:
+    - "&7Grant the ability to fill and empty buckets on your Island."
+    - ""
+    - "&b&lPermission"
+    - "%permission%"
+    slot: 12
+  page: 1
+  defaultRank: "MEMBER"
+doors:
+  modifiable: true
+  item:
+    material: "OAK_DOOR"
+    amount: 1
+    displayName: "&bUse Doors"
+    headData: null
+    headOwner: null
+    headOwnerUUID: null
+    lore:
+    - "&7Grant the ability to use doors or trapdoors on your Island."
+    - ""
+    - "&b&lPermission"
+    - "%permission%"
+    slot: 13
+  page: 1
+  defaultRank: "MEMBER"
+redstone:
+  modifiable: true
+  item:
+    material: "REDSTONE"
+    amount: 1
+    displayName: "&bUse Redstone"
+    headData: null
+    headOwner: null
+    headOwnerUUID: null
+    lore:
+    - "&7Grant the ability to use buttons, levels, or pressure plates on your Island."
+    - ""
+    - "&b&lPermission"
+    - "%permission%"
+    slot: 14
+  page: 1
+  defaultRank: "MEMBER"
+spawners:
+  modifiable: true
+  item:
+    material: "SPAWNER"
+    amount: 1
+    displayName: "&bBreak Spawners"
+    headData: null
+    headOwner: null
+    headOwnerUUID: null
+    lore:
+    - "&7Grant the ability to mine spawners on your Island."
+    - ""
+    - "&b&lPermission"
+    - "%permission%"
+    slot: 15
+  page: 1
+  defaultRank: "MEMBER"
+openContainers:
+  modifiable: true
+  item:
+    material: "CHEST"
+    amount: 1
+    displayName: "&bOpen Containers"
+    headData: null
+    headOwner: null
+    headOwnerUUID: null
+    lore:
+    - "&7Grant the ability to open containers on your Island."
+    - ""
+    - "&b&lPermission"
+    - "%permission%"
+    slot: 16
+  page: 1
+  defaultRank: "MEMBER"
+killMobs:
+  modifiable: true
+  item:
+    material: "DIAMOND_SWORD"
+    amount: 1
+    displayName: "&bKill Mobs"
+    headData: null
+    headOwner: null
+    headOwnerUUID: null
+    lore:
+    - "&7Grant the ability to kill mobs on your Island."
+    - ""
+    - "&b&lPermission"
+    - "%permission%"
+    slot: 19
+  page: 1
+  defaultRank: "MEMBER"
+changePermissions:
+  modifiable: true
+  item:
+    material: "SUNFLOWER"
+    amount: 1
+    displayName: "&bChange Permissions"
+    headData: null
+    headOwner: null
+    headOwnerUUID: null
+    lore:
+    - "&7Grant the ability to edit Island permissions."
+    - ""
+    - "&b&lPermission"
+    - "%permission%"
+    slot: 20
+  page: 1
+  defaultRank: "CO_OWNER"
+kick:
+  modifiable: true
+  item:
+    material: "IRON_BOOTS"
+    amount: 1
+    displayName: "&bKick Users"
+    headData: null
+    headOwner: null
+    headOwnerUUID: null
+    lore:
+    - "&7Grant the ability to kick Island members."
+    - ""
+    - "&b&lPermission"
+    - "%permission%"
+    slot: 21
+  page: 1
+  defaultRank: "MODERATOR"
+invite:
+  modifiable: true
+  item:
+    material: "DIAMOND"
+    amount: 1
+    displayName: "&bInvite Users"
+    headData: null
+    headOwner: null
+    headOwnerUUID: null
+    lore:
+    - "&7Grant the ability to invite Island members."
+    - ""
+    - "&b&lPermission"
+    - "%permission%"
+    slot: 22
+  page: 1
+  defaultRank: "MODERATOR"
+regen:
+  modifiable: true
+  item:
+    material: "TNT"
+    amount: 1
+    displayName: "&bRegenerate Island"
+    headData: null
+    headOwner: null
+    headOwnerUUID: null
+    lore:
+    - "&7Grant the ability to regenerate your Island."
+    - ""
+    - "&b&lPermission"
+    - "%permission%"
+    slot: 23
+  page: 1
+  defaultRank: "CO_OWNER"
+promote:
+  modifiable: true
+  item:
+    material: "PLAYER_HEAD"
+    amount: 1
+    displayName: "&bPromote Users"
+    headData: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2Y0NmFiYWQ5MjRiMjIzNzJiYzk2NmE2ZDUxN2QyZjFiOGI1N2ZkZDI2MmI0ZTA0ZjQ4MzUyZTY4M2ZmZjkyIn19fQ=="
+    headOwner: null
+    headOwnerUUID: null
+    lore:
+    - "&7Grant the ability to promote users in your island."
+    - ""
+    - "&b&lPermission"
+    - "%permission%"
+    slot: 24
+  page: 1
+  defaultRank: "CO_OWNER"
+demote:
+  modifiable: true
+  item:
+    material: "PLAYER_HEAD"
+    amount: 1
+    displayName: "&bDemote Users"
+    headData: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmU5YWU3YTRiZTY1ZmNiYWVlNjUxODEzODlhMmY3ZDQ3ZTJlMzI2ZGI1OWVhM2ViNzg5YTkyYzg1ZWE0NiJ9fX0="
+    headOwner: null
+    headOwnerUUID: null
+    lore:
+    - "&7Grant the ability to demote users in your island."
+    - ""
+    - "&b&lPermission"
+    - "%permission%"
+    slot: 25
+  page: 1
+  defaultRank: "CO_OWNER"
+pickupItems:
+  modifiable: true
+  item:
+    material: "HOPPER"
+    amount: 1
+    displayName: "&bPickup Items"
+    headData: null
+    headOwner: null
+    headOwnerUUID: null
+    lore:
+    - "&7Grant the ability to pickup items on your island."
+    - ""
+    - "&b&lPermission"
+    - "%permission%"
+    slot: 28
+  page: 1
+  defaultRank: "MEMBER"
+dropItems:
+  modifiable: true
+  item:
+    material: "GHAST_TEAR"
+    amount: 1
+    displayName: "&bDrop Items"
+    headData: null
+    headOwner: null
+    headOwnerUUID: null
+    lore:
+    - "&7Grant the ability to drop items on your island."
+    - ""
+    - "&b&lPermission"
+    - "%permission%"
+    slot: 29
+  page: 1
+  defaultRank: "MEMBER"
+interactEntities:
+  modifiable: true
+  item:
+    material: "CREEPER_HEAD"
+    amount: 1
+    displayName: "&bInteract with Entities"
+    headData: null
+    headOwner: null
+    headOwnerUUID: null
+    lore:
+    - "&7Grant the ability to interact with entities on your island."
+    - ""
+    - "&b&lPermission"
+    - "%permission%"
+    slot: 30
+  page: 1
+  defaultRank: "MEMBER"
+manageWarps:
+  modifiable: true
+  item:
+    material: "END_PORTAL_FRAME"
+    amount: 1
+    displayName: "&bManage Warps"
+    headData: null
+    headOwner: null
+    headOwnerUUID: null
+    lore:
+    - "&7Grant the ability to create/edit/delete warps for your island."
+    - ""
+    - "&b&lPermission"
+    - "%permission%"
+    slot: 31
+  page: 1
+  defaultRank: "MEMBER"
+withdrawBank:
+  modifiable: true
+  item:
+    material: "GOLD_INGOT"
+    amount: 1
+    displayName: "&bWithdraw Bank"
+    headData: null
+    headOwner: null
+    headOwnerUUID: null
+    lore:
+    - "&7Grants the ability to withdraw money from the Island Bank."
+    - ""
+    - "&b&lPermission"
+    - "%permission%"
+    slot: 32
+  page: 1
+  defaultRank: "MEMBER"
+trust:
+  modifiable: true
+  item:
+    material: "EMERALD"
+    amount: 1
+    displayName: "&bTrust Users"
+    headData: null
+    headOwner: null
+    headOwnerUUID: null
+    lore:
+    - "&7Grant the ability to manage Island Trusts."
+    - ""
+    - "&b&lPermission"
+    - "%permission%"
+    slot: 33
+  page: 1
+  defaultRank: "MODERATOR"
+border:
+  modifiable: true
+  item:
+    material: "BEACON"
+    amount: 1
+    displayName: "&bIsland Border"
+    headData: null
+    headOwner: null
+    headOwnerUUID: null
+    lore:
+    - "&7Grant the ability to Change the Island border."
+    - ""
+    - "&b&lPermission"
+    - "%permission%"
+    slot: 34
+  page: 1
+  defaultRank: "MEMBER"
+expel:
+  modifiable: true
+  item:
+    material: "LEATHER_BOOTS"
+    amount: 1
+    displayName: "&bExpel Visitors"
+    headData: null
+    headOwner: null
+    headOwnerUUID: null
+    lore:
+    - "&7Grant the ability to expel visitors from your Island."
+    - ""
+    - "&b&lPermission"
+    - "%permission%"
+    slot: 37
+  page: 1
+  defaultRank: "MODERATOR"
+ban:
+  modifiable: true
+  item:
+    material: "BARRIER"
+    amount: 1
+    displayName: "&bBan Visitors"
+    headData: null
+    headOwner: null
+    headOwnerUUID: null
+    lore:
+    - "&7Grant the ability to ban visitors from your Island."
+    - ""
+    - "&b&lPermission"
+    - "%permission%"
+    slot: 38
+  page: 1
+  defaultRank: "MODERATOR"
+unban:
+  modifiable: true
+  item:
+    material: "MAGMA_CREAM"
+    amount: 1
+    displayName: "&bUn-Ban Visitors"
+    headData: null
+    headOwner: null
+    headOwnerUUID: null
+    lore:
+    - "&7Grant the ability to unban visitors on your island."
+    - ""
+    - "&b&lPermission"
+    - "%permission%"
+    slot: 39
+  page: 1
+  defaultRank: "MODERATOR"
+destroyVehicle:
+  modifiable: true
+  item:
+    material: "MINECART"
+    amount: 1
+    displayName: "&bDestroy Vehicles"
+    headData: null
+    headOwner: null
+    headOwnerUUID: null
+    lore:
+    - "&7Grant the ability to destroy vehicles on your island."
+    - ""
+    - "&b&lPermission"
+    - "%permission%"
+    slot: 40
+  page: 1
+  defaultRank: "MEMBER"
+trampleCrops:
+  modifiable: true
+  item:
+    material: "WHEAT_SEEDS"
+    amount: 1
+    displayName: "&bTrample Crops"
+    headData: null
+    headOwner: null
+    headOwnerUUID: null
+    lore:
+    - "&7Grant the ability to trample crops on your island."
+    - ""
+    - "&b&lPermission"
+    - "%permission%"
+    slot: 41
+  page: 1
+  defaultRank: "MEMBER"
+interact:
+  modifiable: true
+  item:
+    material: "STONE_BUTTON"
+    amount: 1
+    displayName: "&bInteract"
+    headData: null
+    headOwner: null
+    headOwnerUUID: null
+    lore:
+    - "&7Grant the ability to interact with blocks on your island."
+    - ""
+    - "&b&lPermission"
+    - "%permission%"
+    slot: 42
+  page: 1
+  defaultRank: "MEMBER"
+portal:
+  modifiable: true
+  item:
+    material: "OBSIDIAN"
+    amount: 1
+    displayName: "&bPortal"
+    headData: null
+    headOwner: null
+    headOwnerUUID: null
+    lore:
+    - "&7Grants the ability to use a portal on the island."
+    - ""
+    - "&b&lPermission"
+    - "%permission%"
+    slot: 43
+  page: 1
+  defaultRank: "MEMBER"
+islandSettings:
+  modifiable: true
+  item:
+    material: "BOOKSHELF"
+    amount: 1
+    displayName: "&bIsland Settings"
+    headData: null
+    headOwner: null
+    headOwnerUUID: null
+    lore:
+    - "&7Grant the ability to change the settings of your Island."
+    - ""
+    - "&b&lPermission"
+    - "%permission%"
+    slot: 10
+  page: 2
+  defaultRank: "MODERATOR"

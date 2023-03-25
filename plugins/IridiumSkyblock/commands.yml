@@ -1,0 +1,510 @@
+---
+aboutCommand:
+  aliases:
+  - "about"
+  description: "Display plugin info"
+  permission: ""
+  syntax: ""
+  enabled: true
+  cooldownInSeconds: 0
+banCommand:
+  aliases:
+  - "ban"
+  - "bans"
+  description: "Bans a player from visiting your Island"
+  permission: ""
+  syntax: "%prefix% &7/is ban <player>"
+  enabled: true
+  cooldownInSeconds: 0
+bankCommand:
+  aliases:
+  - "bank"
+  description: "Open your Island bank"
+  permission: ""
+  syntax: ""
+  enabled: true
+  cooldownInSeconds: 0
+  bankGive:
+    aliases:
+    - "give"
+    description: "Give players money into their island bank"
+    permission: "iridiumskyblock.bank.give"
+    syntax: "%prefix% &7/is bank give <player> <type> <amount>"
+    enabled: true
+    cooldownInSeconds: 0
+  bankSet:
+    aliases:
+    - "set"
+    description: "Set a players bank value"
+    permission: "iridiumskyblock.bank.set"
+    syntax: "%prefix% &7/is bank set <player> <type> <amount>"
+    enabled: true
+    cooldownInSeconds: 0
+  bankRemove:
+    aliases:
+    - "remove"
+    description: "Remove value from a players bank"
+    permission: "iridiumskyblock.bank.remove"
+    syntax: "%prefix% &7/is bank remove <player> <type> <amount>"
+    enabled: true
+    cooldownInSeconds: 0
+biomeCommand:
+  aliases:
+  - "biome"
+  description: "Change your island biome."
+  permission: ""
+  syntax: "%prefix% &7/is biome <biome>"
+  enabled: true
+  cooldownInSeconds: 0
+blockValueCommand:
+  aliases:
+  - "blockvalues"
+  description: "Show the values of blocks"
+  permission: ""
+  syntax: ""
+  enabled: true
+  cooldownInSeconds: 0
+boostersCommand:
+  aliases:
+  - "booster"
+  - "boosters"
+  description: "Open the Island Boosters Menu"
+  permission: ""
+  syntax: "%prefix% &7/is booster <name>"
+  enabled: true
+  cooldownInSeconds: 0
+borderCommand:
+  aliases:
+  - "border"
+  description: "Change the Island Border"
+  permission: ""
+  syntax: "%prefix% &7/is border <color>"
+  enabled: true
+  cooldownInSeconds: 0
+bypassCommand:
+  aliases:
+  - "bypass"
+  description: "Bypass Island restrictions"
+  permission: "iridiumskyblock.bypass"
+  syntax: ""
+  enabled: true
+  cooldownInSeconds: 0
+chatCommand:
+  aliases:
+  - "chat"
+  description: "Chat with online Island members"
+  permission: ""
+  syntax: "%prefix% &7/is chat <message>"
+  enabled: true
+  cooldownInSeconds: 0
+clearDataCommand:
+  aliases:
+  - "clearalldata"
+  description: "Resets all IridiumSkyblock Data"
+  permission: "iridiumskyblock.clearalldata"
+  syntax: ""
+  enabled: true
+  cooldownInSeconds: 0
+createCommand:
+  aliases:
+  - "create"
+  description: "Create an Island"
+  permission: ""
+  syntax: "%prefix% &7/is create <name> <schematic>"
+  enabled: true
+  cooldownInSeconds: 5
+deleteCommand:
+  aliases:
+  - "delete"
+  description: "Delete your Island"
+  permission: ""
+  syntax: "%prefix% &7/is delete <name>"
+  enabled: true
+  cooldownInSeconds: 300
+deleteWarpCommand:
+  aliases:
+  - "delwarp"
+  - "deletewarp"
+  description: "Deletes an Island warp"
+  permission: ""
+  syntax: "%prefix% &7/is deletewarp <name>"
+  enabled: true
+  cooldownInSeconds: 0
+demoteCommand:
+  aliases:
+  - "demote"
+  description: "Demote a user"
+  permission: ""
+  syntax: "%prefix% &7/is demote <player>"
+  enabled: true
+  cooldownInSeconds: 0
+depositCommand:
+  aliases:
+  - "deposit"
+  description: "Deposit into your Island bank"
+  permission: ""
+  syntax: "%prefix% &7/is deposit <name> <amount>"
+  enabled: true
+  cooldownInSeconds: 0
+editWarpCommand:
+  aliases:
+  - "editwarp"
+  description: "Edits an Island warp"
+  permission: ""
+  syntax: "%prefix% &7/is editwarp <name> <icon/description>"
+  enabled: true
+  cooldownInSeconds: 0
+expelCommand:
+  aliases:
+  - "expel"
+  description: "Kick a visitor"
+  permission: ""
+  syntax: "%prefix% &7/is expel <player>"
+  enabled: true
+  cooldownInSeconds: 0
+extraValueCommand:
+  aliases:
+  - "extravalue"
+  description: "Set extra values of island"
+  permission: "iridiumskyblock.extravalue"
+  syntax: "%prefix% &7/is extravalue <player/add/remove/set>"
+  enabled: true
+  cooldownInSeconds: 0
+  addCommand:
+    aliases:
+    - "add"
+    description: "Add value to the extra value of a player"
+    permission: "iridiumskyblock.extravalue"
+    syntax: "%prefix% &7/is extravalue add <player> <amount>"
+    enabled: true
+    cooldownInSeconds: 0
+  removeCommand:
+    aliases:
+    - "remove"
+    description: "Remove value from the extra value of a player"
+    permission: "iridiumskyblock.extravalue"
+    syntax: "%prefix% &7/is extravalue remove <player> <amount>"
+    enabled: true
+    cooldownInSeconds: 0
+  setCommand:
+    aliases:
+    - "set"
+    description: "Set the extra value of a player"
+    permission: "iridiumskyblock.extravalue"
+    syntax: "%prefix% &7/is extravalue set <player> <amount>"
+    enabled: true
+    cooldownInSeconds: 0
+flyCommand:
+  aliases:
+  - "fly"
+  - "flight"
+  description: "Toggle Island Flight"
+  permission: ""
+  syntax: "%prefix% &7/is flight <enable/disable>"
+  enabled: true
+  cooldownInSeconds: 0
+helpCommand:
+  aliases:
+  - "help"
+  description: "Show a list of all commands"
+  permission: ""
+  syntax: "%prefix% &7/is help <page/command>"
+  enabled: true
+  cooldownInSeconds: 0
+homeCommand:
+  aliases:
+  - "home"
+  - "go"
+  description: "Teleport to your Island home"
+  permission: ""
+  syntax: ""
+  enabled: true
+  cooldownInSeconds: 3
+  currentOffsetCommand:
+    aliases:
+    - "currentOffset"
+    description: "Displays the relative location from the center"
+    permission: "iridiumskyblock.currentoffset"
+    syntax: "%prefix% &7/is home currentOffset"
+    enabled: true
+    cooldownInSeconds: 0
+infoCommand:
+  aliases:
+  - "info"
+  description: "Show infos about this Island."
+  permission: ""
+  syntax: "%prefix% &7/is info <player>"
+  enabled: true
+  cooldownInSeconds: 0
+inviteCommand:
+  aliases:
+  - "invite"
+  - "invites"
+  description: "Invite a user to your Island"
+  permission: ""
+  syntax: "%prefix% &7/is invite <player>"
+  enabled: true
+  cooldownInSeconds: 0
+joinCommand:
+  aliases:
+  - "join"
+  description: "Join an Island"
+  permission: ""
+  syntax: "%prefix% &7/is join <player>"
+  enabled: true
+  cooldownInSeconds: 0
+kickCommand:
+  aliases:
+  - "kick"
+  description: "Kick a player"
+  permission: ""
+  syntax: "%prefix% &7/is kick <player>"
+  enabled: true
+  cooldownInSeconds: 0
+leaveCommand:
+  aliases:
+  - "leave"
+  description: "Leave your Island"
+  permission: ""
+  syntax: ""
+  enabled: true
+  cooldownInSeconds: 0
+levelCommand:
+  aliases:
+  - "level"
+  - "experience"
+  description: "Displays Island Level/Experience"
+  permission: ""
+  syntax: ""
+  enabled: true
+  cooldownInSeconds: 0
+logsCommand:
+  aliases:
+  - "logs"
+  description: "Open your Island Logs"
+  permission: ""
+  syntax: ""
+  enabled: true
+  cooldownInSeconds: 0
+membersCommand:
+  aliases:
+  - "members"
+  description: "View your Island members"
+  permission: ""
+  syntax: ""
+  enabled: true
+  cooldownInSeconds: 0
+missionCommand:
+  aliases:
+  - "missions"
+  description: "View your Island missions"
+  permission: ""
+  syntax: "%prefix% &7/is mission <type>"
+  enabled: true
+  cooldownInSeconds: 0
+permissionsCommand:
+  aliases:
+  - "permissions"
+  - "perms"
+  description: "Edit your Island permissions"
+  permission: ""
+  syntax: ""
+  enabled: true
+  cooldownInSeconds: 0
+privateCommand:
+  aliases:
+  - "private"
+  description: "Make your Island private"
+  permission: ""
+  syntax: ""
+  enabled: true
+  cooldownInSeconds: 0
+promoteCommand:
+  aliases:
+  - "promote"
+  description: "Promote a user"
+  permission: ""
+  syntax: "%prefix% &7/is promote <player>"
+  enabled: true
+  cooldownInSeconds: 0
+publicCommand:
+  aliases:
+  - "public"
+  description: "Make your Island public"
+  permission: ""
+  syntax: ""
+  enabled: true
+  cooldownInSeconds: 0
+recalculateCommand:
+  aliases:
+  - "recalculate"
+  - "recalc"
+  description: "Recalculate all Island Values"
+  permission: "iridiumskyblock.recalculate"
+  syntax: ""
+  enabled: true
+  cooldownInSeconds: 0
+regenCommand:
+  aliases:
+  - "regen"
+  description: "Regenerate your Island"
+  permission: ""
+  syntax: "%prefix% &7/is regen <schematic>"
+  enabled: true
+  cooldownInSeconds: 300
+reloadCommand:
+  aliases:
+  - "reload"
+  description: "Reload the plugin configurations"
+  permission: "iridiumskyblock.reload"
+  syntax: ""
+  enabled: true
+  cooldownInSeconds: 0
+renameCommand:
+  aliases:
+  - "rename"
+  description: "Change your island name"
+  permission: ""
+  syntax: "%prefix% &7/is rename <name>"
+  enabled: true
+  cooldownInSeconds: 60
+rewardsCommand:
+  aliases:
+  - "rewards"
+  description: "Claim your Island Rewards"
+  permission: ""
+  syntax: ""
+  enabled: true
+  cooldownInSeconds: 0
+setHomeCommand:
+  aliases:
+  - "sethome"
+  description: "Set your Island home"
+  permission: ""
+  syntax: ""
+  enabled: true
+  cooldownInSeconds: 0
+setWarpCommand:
+  aliases:
+  - "setwarp"
+  - "createwarp"
+  description: "Creates an Island warp"
+  permission: ""
+  syntax: "%prefix% &7/is setwarp <name> <password>"
+  enabled: true
+  cooldownInSeconds: 0
+settingsCommand:
+  aliases:
+  - "settings"
+  description: "Edit your Island settings"
+  permission: ""
+  syntax: ""
+  enabled: true
+  cooldownInSeconds: 0
+shopCommand:
+  aliases:
+  - "shop"
+  description: "Opens the Island shop"
+  permission: ""
+  syntax: "%prefix% &7/is shop <category>"
+  enabled: true
+  cooldownInSeconds: 0
+spyCommand:
+  aliases:
+  - "spy"
+  description: "Read the chats of other Islands"
+  permission: "iridiumskyblock.spy"
+  syntax: ""
+  enabled: true
+  cooldownInSeconds: 0
+topCommand:
+  aliases:
+  - "top"
+  description: "Display the top Islands"
+  permission: ""
+  syntax: ""
+  enabled: true
+  cooldownInSeconds: 0
+transferCommand:
+  aliases:
+  - "transfer"
+  description: "Transfer Island ownership to another player"
+  permission: ""
+  syntax: "%prefix% &7/is transfer <player>"
+  enabled: true
+  cooldownInSeconds: 0
+trustCommand:
+  aliases:
+  - "trust"
+  - "trusted"
+  description: "View your Trusted members"
+  permission: ""
+  syntax: "%prefix% &7/is trust <player>"
+  enabled: true
+  cooldownInSeconds: 0
+unBanCommand:
+  aliases:
+  - "unban"
+  description: "Un-ban a player visiting from your island"
+  permission: ""
+  syntax: "%prefix% &7/is unban <player>"
+  enabled: true
+  cooldownInSeconds: 0
+unInviteCommand:
+  aliases:
+  - "uninvite"
+  description: "Revoke an invitation to your Island"
+  permission: ""
+  syntax: "%prefix% &7/is uninvite <player>"
+  enabled: true
+  cooldownInSeconds: 0
+unTrustCommand:
+  aliases:
+  - "untrust"
+  description: "Revoke a trusted user from your Island"
+  permission: ""
+  syntax: "%prefix% &7/is untrust <player>"
+  enabled: true
+  cooldownInSeconds: 0
+upgradesCommand:
+  aliases:
+  - "upgrades"
+  - "upgrade"
+  description: "Open the Island Upgrades Menu"
+  permission: ""
+  syntax: "%prefix% &7/is upgrade <name>"
+  enabled: true
+  cooldownInSeconds: 0
+valueCommand:
+  aliases:
+  - "value"
+  description: "View your Island value"
+  permission: ""
+  syntax: ""
+  enabled: true
+  cooldownInSeconds: 0
+visitCommand:
+  aliases:
+  - "visit"
+  description: "Visit another players Island"
+  permission: ""
+  syntax: "%prefix% &7/is visit <player>"
+  enabled: true
+  cooldownInSeconds: 0
+warpsCommand:
+  aliases:
+  - "warp"
+  - "warps"
+  description: "Open the Island Warps Menu"
+  permission: ""
+  syntax: "%prefix% &7/is warp <name> <password>"
+  enabled: true
+  cooldownInSeconds: 0
+withdrawCommand:
+  aliases:
+  - "withdraw"
+  description: "Withdraw from your Island bank"
+  permission: ""
+  syntax: "%prefix% &7/is withdraw <type> <amount>"
+  enabled: true
+  cooldownInSeconds: 0
