@@ -1,0 +1,25 @@
+---
+valueTeamSort:
+  item:
+    material: "DIAMOND"
+    amount: 1
+    displayName: "&9&lSort By Value"
+    headData: null
+    headOwner: null
+    headOwnerUUID: null
+    model: null
+    lore: []
+    slot: 18
+  enabled: true
+experienceTeamSort:
+  item:
+    material: "EXPERIENCE_BOTTLE"
+    amount: 1
+    displayName: "&e&lSort By Experience"
+    headData: null
+    headOwner: null
+    headOwnerUUID: null
+    model: null
+    lore: []
+    slot: 27
+  enabled: true

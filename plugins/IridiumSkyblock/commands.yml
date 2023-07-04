@@ -1,0 +1,346 @@
+---
+aboutCommand:
+  aliases:
+  - "about"
+  description: "View information about the plugin"
+  syntax: "%prefix% &7/is about"
+  permission: ""
+  enabled: true
+createCommand:
+  aliases:
+  - "create"
+  description: "Create a newIsland"
+  syntax: "%prefix% &7/is create <name>"
+  permission: ""
+  enabled: true
+membersCommand:
+  aliases:
+  - "members"
+  description: "View your Island members"
+  syntax: "%prefix% &7/is members"
+  permission: ""
+  enabled: true
+permissionsCommand:
+  aliases:
+  - "permissions"
+  description: "Edit your Island permissions"
+  syntax: "%prefix% &7/is permissions"
+  permission: ""
+  enabled: true
+setPermissionCommand:
+  aliases:
+  - "setpermission"
+  description: "Set your Island permissions"
+  syntax: "%prefix% &7/is setpermission <permission> <rank> (true/false)"
+  permission: ""
+  enabled: true
+settingsCommand:
+  aliases:
+  - "settings"
+  description: "Set your Island settings"
+  syntax: "%prefix% &7/is settings <setting> <value>"
+  permission: ""
+  enabled: true
+promoteCommand:
+  aliases:
+  - "promote"
+  description: "Promote a member of your Island"
+  syntax: "%prefix% &7/is promote <player>"
+  permission: ""
+  enabled: true
+demoteCommand:
+  aliases:
+  - "demote"
+  description: "Demote a member of your Island"
+  syntax: "%prefix% &7/is demote <player>"
+  permission: ""
+  enabled: true
+helpCommand:
+  aliases:
+  - "help"
+  description: "Show all the plugin commands"
+  syntax: "%prefix% &7/is help"
+  permission: ""
+  enabled: true
+reloadCommand:
+  aliases:
+  - "reload"
+  description: "Reload the plugin's configurations"
+  syntax: "%prefix% &7/is reload"
+  permission: "iridiumskyblock.reload"
+  enabled: true
+inviteCommand:
+  aliases:
+  - "invite"
+  description: "Invite a player to your Island"
+  syntax: "%prefix% &7/is invite <player>"
+  permission: ""
+  enabled: true
+unInviteCommand:
+  aliases:
+  - "uninvite"
+  description: "Revoke a player's invitation to your Island"
+  syntax: "%prefix% &7/is uninvite <player>"
+  permission: ""
+  enabled: true
+invitesCommand:
+  aliases:
+  - "invites"
+  description: "View all active invites to your Island"
+  syntax: "%prefix% &7/is invites"
+  permission: ""
+  enabled: true
+trustCommand:
+  aliases:
+  - "trust"
+  description: "Trust a player in your Island"
+  syntax: "%prefix% &7/is trust <player>"
+  permission: ""
+  enabled: true
+unTrustCommand:
+  aliases:
+  - "untrust"
+  description: "Revoke a player's trust in your Island"
+  syntax: "%prefix% &7/is untrust <player>"
+  permission: ""
+  enabled: true
+trustsCommand:
+  aliases:
+  - "trusts"
+  description: "View all active trusted members for your Island"
+  syntax: "%prefix% &7/is trusts"
+  permission: ""
+  enabled: true
+kickCommand:
+  aliases:
+  - "kick"
+  description: "Kick a player from your Island"
+  syntax: "%prefix% &7/is kick <player>"
+  permission: ""
+  enabled: true
+leaveCommand:
+  aliases:
+  - "leave"
+  description: "Leave your current Island"
+  syntax: "%prefix% &7/is leave"
+  permission: ""
+  enabled: true
+deleteCommand:
+  aliases:
+  - "delete"
+  description: "Delete your Island"
+  syntax: "%prefix% &7/is delete (player)"
+  permission: ""
+  enabled: true
+  adminPermission: "iridiumskyblock.delete.others"
+infoCommand:
+  aliases:
+  - "info"
+  - "level"
+  - "value"
+  description: "View information about a Island"
+  syntax: "%prefix% &7/is info <island>"
+  permission: ""
+  enabled: true
+descriptionCommand:
+  aliases:
+  - "description"
+  description: "Set your Island description."
+  syntax: "%prefix% &7/is description (Island) <description>"
+  permission: ""
+  enabled: true
+  adminPermission: "iridiumskyblock.description.others"
+renameCommand:
+  aliases:
+  - "rename"
+  description: "Rename your Island"
+  syntax: "%prefix% &7/is rename (Island) <name>"
+  permission: ""
+  enabled: true
+  adminPermission: "iridiumskyblock.rename.others"
+setHomeCommand:
+  aliases:
+  - "sethome"
+  description: "Set your Island's home"
+  syntax: "%prefix% &7/is sethome"
+  permission: ""
+  enabled: true
+homeCommand:
+  aliases:
+  - "home"
+  description: "Teleport to your Island's home"
+  syntax: "%prefix% &7/is home"
+  permission: ""
+  enabled: true
+bypassCommand:
+  aliases:
+  - "bypass"
+  description: "Bypass Island restrictions"
+  syntax: "%prefix% &7/is bypass"
+  permission: "iridiumskyblock.bypass"
+  enabled: true
+transferCommand:
+  aliases:
+  - "transfer"
+  description: "Transfer Island ownership to another player"
+  syntax: "%prefix% &7/is transfer <player>"
+  permission: ""
+  enabled: true
+joinCommand:
+  aliases:
+  - "join"
+  description: "Join a Island"
+  syntax: "%prefix% &7/is join"
+  permission: ""
+  enabled: true
+bankCommand:
+  aliases:
+  - "bank"
+  description: "View your Island bank"
+  syntax: "%prefix% &7/is bank <give/set/remove> <player> <item> <amount>"
+  permission: ""
+  enabled: true
+  adminPermission: "iridiumskyblock.bank.modify"
+depositCommand:
+  aliases:
+  - "deposit"
+  description: "Deposit into your Island bank"
+  syntax: "%prefix% &7/is deposit <name> <amount>"
+  permission: ""
+  enabled: true
+withdrawCommand:
+  aliases:
+  - "withdraw"
+  description: "Withdraw from your Island bank"
+  syntax: "%prefix% &7/is withdraw <name> <amount>"
+  permission: ""
+  enabled: true
+chatCommand:
+  aliases:
+  - "chat"
+  - "c"
+  description: "Change your Island chat type"
+  syntax: "%prefix% &7/is chat <chattype>"
+  permission: ""
+  enabled: true
+boostersCommand:
+  aliases:
+  - "boosters"
+  description: "View your Island Boosters"
+  syntax: "%prefix% &7/is boosters buy <booster>"
+  permission: ""
+  enabled: true
+upgradesCommand:
+  aliases:
+  - "upgrades"
+  description: "View your Island Upgrades"
+  syntax: "%prefix% &7/is upgrades buy <upgrade>"
+  permission: ""
+  enabled: true
+flyCommand:
+  aliases:
+  - "fly"
+  description: "Toggle your ability to fly"
+  syntax: "%prefix% &7/ is fly"
+  permission: ""
+  enabled: true
+topCommand:
+  aliases:
+  - "top"
+  description: "View the top Island's"
+  syntax: "%prefix% &7/is top"
+  permission: ""
+  enabled: true
+recalculateCommand:
+  aliases:
+  - "recalculate"
+  description: "Recalculate all Island's value "
+  syntax: "%prefix% &7/is recalculate"
+  permission: "iridiumskyblock.recalculate"
+  enabled: true
+warpsCommand:
+  aliases:
+  - "warps"
+  description: "View your Island's warps"
+  syntax: "%prefix% &7/is warps"
+  permission: ""
+  enabled: true
+warpCommand:
+  aliases:
+  - "warp"
+  description: "Teleport to your Island's warps"
+  syntax: "%prefix% &7/is warp <name> (password)"
+  permission: ""
+  enabled: true
+setWarpCommand:
+  aliases:
+  - "setwarp"
+  description: "Create a Island warp"
+  syntax: "%prefix% &7/is setwarp"
+  permission: ""
+  enabled: true
+deleteWarpCommand:
+  aliases:
+  - "deletewarp"
+  - "delwarp"
+  description: "Delete a Island warp"
+  syntax: "%prefix% &7/is deletewarp"
+  permission: ""
+  enabled: true
+editWarpCommand:
+  aliases:
+  - "editwarp"
+  description: "Edit a Island warp"
+  syntax: "%prefix% &7/is editwarp <warp> <icon/description> <value>"
+  permission: ""
+  enabled: true
+missionsCommand:
+  aliases:
+  - "missions"
+  description: "View your Island missions"
+  syntax: "%prefix% &7/is missions"
+  permission: ""
+  enabled: true
+rewardsCommand:
+  aliases:
+  - "rewards"
+  description: "View your Island rewards"
+  syntax: "%prefix% &7/is rewards"
+  permission: ""
+  enabled: true
+experienceCommand:
+  aliases:
+  - "experience"
+  description: "View your Island experience"
+  syntax: "%prefix% &7/is experience <give/set/remove> <player> <amount>"
+  permission: ""
+  enabled: true
+  adminPermission: "iridiumskyblock.experience.modify"
+shopCommand:
+  aliases:
+  - "shop"
+  description: "Open the Shop"
+  syntax: "%prefix% &7/is shop"
+  permission: ""
+  enabled: true
+visitCommand:
+  aliases:
+  - "visit"
+  description: "Visit other islands"
+  syntax: "%prefix% &7/is visit"
+  permission: ""
+  enabled: true
+borderCommand:
+  aliases:
+  - "border"
+  description: "Change the Island Border"
+  syntax: "%prefix% &7/is border <color>"
+  permission: ""
+  enabled: true
+regenCommand:
+  aliases:
+  - "regen"
+  description: "Regenerate your Island"
+  syntax: "%prefix% &7/is regen <schematic>"
+  permission: ""
+  enabled: true
