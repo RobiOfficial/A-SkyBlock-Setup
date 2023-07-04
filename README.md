@@ -6,7 +6,7 @@ This server was created as part of a project, and now I allow server owners to u
 - If you have a question or suggestion, you can create it on the "**[Issues](https://github.com/RobiOfficial/A-SkyBlock-Setup/issues)**" page or in the project **[discussions](https://github.com/RobiOfficial/A-SkyBlock-Setup/discussions)** forum.
 
 # Setup Features
-- **Native version:** 1.19.4
+- **Native version:** 1.20.1
 - **Plugins:** AdvancedBan, Citizens, Essentials, IridiumSkyblock, LPC, LuckPerms, MOTD, Multiverse-Core, MyCommand, TigerReports, Vault, WorldEdit, WorldGuard. 
 
 ## Spawnpoint
