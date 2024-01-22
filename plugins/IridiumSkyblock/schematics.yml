@@ -12,6 +12,7 @@ schematics:
       lore:
       - "&7A starter desert island."
       slot: 11
+    regenCost: null
     xHome: -0.5
     yHome: 89.0
     zHome: -0.5
@@ -43,6 +44,7 @@ schematics:
       lore:
       - "&7A starter jungle island."
       slot: 13
+    regenCost: null
     xHome: 1.5
     yHome: 83.0
     zHome: 1.5
@@ -74,6 +76,7 @@ schematics:
       lore:
       - "&7A starter mushroom island."
       slot: 15
+    regenCost: null
     xHome: 0.5
     yHome: 89.0
     zHome: -0.5
@@ -93,3 +96,6 @@ schematics:
       schematicID: "mushroom_end.schem"
       islandHeight: 90.0
       ignoreAirBlocks: true
+abbreviatePrices: true
+failSound: "BLOCK_ANVIL_LAND"
+successSound: "ENTITY_PLAYER_LEVELUP"

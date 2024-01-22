@@ -1732,3 +1732,123 @@ islandSchematicGUI:
         model: null
         lore: []
         slot: null
+biomeOverviewGUI:
+  size: 27
+  title: "Biomes"
+  background:
+    filler:
+      material: "BLACK_STAINED_GLASS_PANE"
+      amount: 1
+      displayName: " "
+      headData: null
+      headOwner: null
+      headOwnerUUID: null
+      model: null
+      lore: []
+      slot: null
+    items:
+      9:
+        material: "LIGHT_GRAY_STAINED_GLASS_PANE"
+        amount: 1
+        displayName: " "
+        headData: null
+        headOwner: null
+        headOwnerUUID: null
+        model: null
+        lore: []
+        slot: null
+      10:
+        material: "LIGHT_GRAY_STAINED_GLASS_PANE"
+        amount: 1
+        displayName: " "
+        headData: null
+        headOwner: null
+        headOwnerUUID: null
+        model: null
+        lore: []
+        slot: null
+      11:
+        material: "LIGHT_GRAY_STAINED_GLASS_PANE"
+        amount: 1
+        displayName: " "
+        headData: null
+        headOwner: null
+        headOwnerUUID: null
+        model: null
+        lore: []
+        slot: null
+      12:
+        material: "LIGHT_GRAY_STAINED_GLASS_PANE"
+        amount: 1
+        displayName: " "
+        headData: null
+        headOwner: null
+        headOwnerUUID: null
+        model: null
+        lore: []
+        slot: null
+      13:
+        material: "LIGHT_GRAY_STAINED_GLASS_PANE"
+        amount: 1
+        displayName: " "
+        headData: null
+        headOwner: null
+        headOwnerUUID: null
+        model: null
+        lore: []
+        slot: null
+      14:
+        material: "LIGHT_GRAY_STAINED_GLASS_PANE"
+        amount: 1
+        displayName: " "
+        headData: null
+        headOwner: null
+        headOwnerUUID: null
+        model: null
+        lore: []
+        slot: null
+      15:
+        material: "LIGHT_GRAY_STAINED_GLASS_PANE"
+        amount: 1
+        displayName: " "
+        headData: null
+        headOwner: null
+        headOwnerUUID: null
+        model: null
+        lore: []
+        slot: null
+      16:
+        material: "LIGHT_GRAY_STAINED_GLASS_PANE"
+        amount: 1
+        displayName: " "
+        headData: null
+        headOwner: null
+        headOwnerUUID: null
+        model: null
+        lore: []
+        slot: null
+      17:
+        material: "LIGHT_GRAY_STAINED_GLASS_PANE"
+        amount: 1
+        displayName: " "
+        headData: null
+        headOwner: null
+        headOwnerUUID: null
+        model: null
+        lore: []
+        slot: null
+biomeCategoryGUI:
+  size: 54
+  title: "Biomes - %biome_category_name%"
+  background:
+    filler:
+      material: "BLACK_STAINED_GLASS_PANE"
+      amount: 1
+      displayName: " "
+      headData: null
+      headOwner: null
+      headOwnerUUID: null
+      model: null
+      lore: []
+      slot: null
+    items: {}

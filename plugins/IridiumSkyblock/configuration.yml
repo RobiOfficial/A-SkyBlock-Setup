@@ -154,6 +154,7 @@ levelRewards:
     experience: 2000
     teamExperience: 0
     sound: "ENTITY_PLAYER_LEVELUP"
+whitelistedWorlds: []
 islandCreateTitle: "&b&lIsland Created"
 islandCreateSubTitle: "&7IridiumSkyblock by Peaches_MLG"
 defaultDescription: "Default island description :c"
@@ -161,9 +162,20 @@ worldName: "IridiumSkyblock"
 spawnWorldName: "world"
 islandTitleTop: "&9%island_name%"
 islandTitleBottom: "&7%island_description%"
+paster: "worldedit"
 obsidianBucket: true
+netherOnlyGenerator: false
+endPortalPick: true
+removeIslandBlocksOnDelete: false
+clearInventoryOnRegen: false
+clearEnderChestOnRegen: false
+allowPvPOnIslands: false
+islandCreateOnJoin: false
 distance: 151
 netherUnlockLevel: 10
+endUnlockLevel: 20
+pasterDelayInTick: 1
+pasterLimitPerTick: 10
 islandCrystal:
   material: "NETHER_STAR"
   amount: 1
