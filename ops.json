@@ -1,1 +1,8 @@
-[]
+[
+  {
+    "uuid": "cb2de85c-b29b-4f71-bb51-ef6591c7a15c",
+    "name": "AvezzaMC",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  }
+]

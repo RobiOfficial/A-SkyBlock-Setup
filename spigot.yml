@@ -59,6 +59,7 @@ players:
   disable-saving: false
 world-settings:
   default:
+    seed-trailruins: 83469867
     below-zero-generation-in-existing-chunks: true
     merge-radius:
       item: 2.5
@@ -77,6 +78,8 @@ world-settings:
     hanging-tick-frequency: 100
     thunder-chance: 100000
     growth:
+      torchflower-modifier: 100
+      pitcherplant-modifier: 100
       cactus-modifier: 100
       cane-modifier: 100
       melon-modifier: 100
@@ -124,6 +127,7 @@ world-settings:
       tick-inactive-villagers: true
       ignore-spectators: false
     entity-tracking-range:
+      display: 128
       players: 48
       animals: 48
       monsters: 48
